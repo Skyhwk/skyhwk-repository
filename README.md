@@ -3,16 +3,16 @@ A simple repository package for Laravel and Lumen to store and retrieve text fil
 
 ## **1. Installation
 Run the following command to install the package:
-``` bash
+
 composer require skyhwk/repository
 ## **2. Setup in Laravel or Lumen
 For Laravel
 Add the service provider to config/app.php:
 
 Providers:
-php
-Copy code
+``` bash
 Skyhwk\Repository\RepositoryServiceProvider::class,
+``` bash
 Aliases:
 php
 Copy code
