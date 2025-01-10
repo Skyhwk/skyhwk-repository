@@ -51,5 +51,4 @@ Run the following command to refresh the autoloader:
 composer dump-autoload
 ```
 
-Now, you're ready to start using Skyhwk\Repository in your project!
-```
+# Now, you're ready to start using Skyhwk\Repository in your project!
