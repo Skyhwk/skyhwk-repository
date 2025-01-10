@@ -10,32 +10,32 @@ For Laravel
 Add the service provider to config/app.php:
 
 Providers:
-
+```bash
 Skyhwk\Repository\RepositoryServiceProvider::class,
 
 Aliases:
 php
-Copy code
+```bash
 'Repository' => Skyhwk\Repository\RepositoryFacade::class,
 Run the following command to refresh the autoloader:
 
 bash
-Copy code
+```bash
 composer dump-autoload
 For Lumen
 Register the service provider by adding the following line in bootstrap/app.php:
 
 php
-Copy code
+```bash
 $app->register(Skyhwk\Repository\RepositoryServiceProvider::class);
 Add the alias:
 
 php
-Copy code
+```bash
 class_alias(Skyhwk\Repository\RepositoryFacade::class, 'Repository');
 Run the following command to refresh the autoloader:
 
 bash
-Copy code
+```bash
 composer dump-autoload
 Now, you're ready to start using Skyhwk\Repository in your project!
