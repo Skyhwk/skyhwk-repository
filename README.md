@@ -10,9 +10,9 @@ For Laravel
 Add the service provider to config/app.php:
 
 Providers:
-``` bash
+
 Skyhwk\Repository\RepositoryServiceProvider::class,
-``` bash
+
 Aliases:
 php
 Copy code
