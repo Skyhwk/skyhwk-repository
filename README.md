@@ -1,11 +1,11 @@
 # Skyhwk Repository
 A simple repository package for Laravel and Lumen to store and retrieve text files.
 
-#**1. Installation
+## **1. Installation
 Run the following command to install the package:
 
 composer require skyhwk/repository
-#**2. Setup in Laravel or Lumen
+## **2. Setup in Laravel or Lumen
 For Laravel
 Add the service provider to config/app.php:
 
