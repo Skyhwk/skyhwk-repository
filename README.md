@@ -1,29 +1,41 @@
 # Skyhwk Repository
-
 A simple repository package for Laravel and Lumen to store and retrieve text files.
 
-## Installation
----
+#**1. Installation
+Run the following command to install the package:
+
 composer require skyhwk/repository
+#**2. Setup in Laravel or Lumen
+For Laravel
+Add the service provider to config/app.php:
 
-### **6. Instalasi di Laravel atau Lumen**
+Providers:
+php
+Copy code
+Skyhwk\Repository\RepositoryServiceProvider::class,
+Aliases:
+php
+Copy code
+'Repository' => Skyhwk\Repository\RepositoryFacade::class,
+Run the following command to refresh the autoloader:
 
-#### **Laravel**
-1. Tambahkan ke `config/app.php`:
-   - **Providers**:
-     ```php
-     Skyhwk\Repository\RepositoryServiceProvider::class,
-     ```
-   - **Aliases**:
-     ```php
-     'Repository' => Skyhwk\Repository\RepositoryFacade::class,
-     ```
+bash
+Copy code
+composer dump-autoload
+For Lumen
+Register the service provider by adding the following line in bootstrap/app.php:
 
-2. Jalankan perintah:
-   ```bash
-   composer dump-autoload
+php
+Copy code
+$app->register(Skyhwk\Repository\RepositoryServiceProvider::class);
+Add the alias:
 
-   
-```bash
-composer require skyhwk/repository
+php
+Copy code
+class_alias(Skyhwk\Repository\RepositoryFacade::class, 'Repository');
+Run the following command to refresh the autoloader:
 
+bash
+Copy code
+composer dump-autoload
+Now, you're ready to start using Skyhwk\Repository in your project!
