@@ -53,5 +53,3 @@ composer dump-autoload
 
 Now, you're ready to start using Skyhwk\Repository in your project!
 ```
-
-You can update the `README.md` file in your repository with these changes.
