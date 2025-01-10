@@ -4,6 +4,7 @@ A simple repository package for Laravel and Lumen to store and retrieve text fil
 
 ## Installation
 ---
+composer require skyhwk/repository
 
 ### **6. Instalasi di Laravel atau Lumen**
 
