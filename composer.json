@@ -2,6 +2,7 @@
     "name": "skyhwk/repository",
     "description": "A simple repository package for Laravel and Lumen",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
             "name": "Skyhwk",
