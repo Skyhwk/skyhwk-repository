@@ -1,6 +1,3 @@
-Here is the corrected version of the `README.md` file with the appropriate formatting for the bash commands and code blocks:
-
-```markdown
 # Skyhwk Repository
 A simple repository package for Laravel and Lumen to store and retrieve text files.
 
