@@ -1,0 +1,35 @@
+{
+    "name": "skyhwk/repository",
+    "description": "A simple repository package for Laravel and Lumen",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Skyhwk",
+            "email": "dedi@intilab.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Skyhwk\\Repository\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Skyhwk\\Repository\\RepositoryServiceProvider"
+            ],
+            "aliases": {
+                "Repository": "Skyhwk\\Repository\\RepositoryFacade"
+            }
+        }
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "php post-install.php"
+        ]
+    }
+}
